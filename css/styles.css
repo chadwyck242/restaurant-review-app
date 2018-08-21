@@ -1,16 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 html {
-	height: 100%;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+*, *:before, *:after {
+  	box-sizing: inherit;
 }
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	background-color: #fdfdfd;
-	min-height: 100%;
 }
 
 td,th,p{
@@ -47,28 +50,17 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 .container {
 	margin: 0 auto;
-	max-width: 1080px;
+	width: 1080px;
 	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: auto;
+	grid-template-rows: auto;
     grid-gap: 1.6em;
 }
 
 .main-header {
-	grid-column: 1 / span 13;
-	grid-row: 1 / 2;
+	height: 3rem;
 	margin-top: -0.55rem;
 	padding-top: 0;
-}
-
-.main {
-	grid-column: 2 / span 10;
-	grid-row: 2 / 5;
-}
-
-.footer {
-	grid-column: 1 / span 13;
-	grid-row: 5 / 7;
 }
 
 #maincontent {
@@ -89,7 +81,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 nav {
 	width: 100%;
-	height: 6rem;
+	height: 4rem;
 	background-color: #252831;
 	text-align:center;
 }
