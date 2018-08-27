@@ -1,6 +1,6 @@
-# Project Title
+# Udacity Restaurant Review App (FEND)
 
-One Paragraph of project description goes here
+The fifth project for the Udacity Front End Developer NanoDegree. Comprises the first part of the Mobile Web Services NanoDegree project of the same name.
 
 ## Getting Started
 
@@ -82,9 +82,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Mozilla Developer Network (MDN) Documentation and Tutorials
+* Doug Brown MWS Stage 1 Tutorial [Doug Brown on YouTube](https://www.youtube.com/watch?v=92dtrNU1GQc)
+* Udacity FEND Student Slack Group
+
+## **Below are the original instructions provided by Udacity, for a more general idea as to what the project requirements were.**
 
 # Mobile Web Specialist Certification Course
 ---
