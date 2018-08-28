@@ -4,7 +4,7 @@ The fifth project for the Udacity Front End Developer NanoDegree. Comprises the 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for reviewing and testing out the application. For the FEND NanoDegree, only the first part of a three part project were required. Usage instructions are not much more than getting a Python server running, and point your browser to the required port.
+These instructions will get you a copy of the project up and running on your local machine for reviewing and testing out the application. For the FEND NanoDegree, only the first part of a three part MWS NanoDegree project were required. Usage instructions are not much more than getting a Python server running, and point your browser to the required port.
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ Give an example
 
 These are simply the instruction Udacity provided below to get the application running on a simple Python based server, and then get it opened in a browser. Assuming Python is on your system Path, navigate to main folder of the project you downloaded or cloned above and do the following:
 
-## Running the tests
+## Using the Application
 
 Explain how to run the automated tests for this system
 
@@ -49,9 +49,6 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
