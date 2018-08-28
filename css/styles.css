@@ -29,14 +29,14 @@ video {
 td,
 th,
 p {
-	color: #333;
+	color: #212121;
 	line-height: 1.5;
 }
 
 ul,
 li {
 	font-size: 0.8em;
-	color: #333;
+	color: #212121;
 }
 
 a {
@@ -46,12 +46,13 @@ a {
 
 a:hover,
 a:focus {
-	color: #3397db;
+	color: #757575;
+	/* color: #3397db; */
 	text-decoration: none;
 }
 
 a img{
-	border: none 0px #fff;
+	border: none 0px #FFF;
 }
 
 h1,
@@ -90,7 +91,7 @@ section {
 
 #footer {
 	background-color: #512DA8;
-	color: #FFFFFF;
+	color: #FFF;
 	font-size: 0.8em;
 	letter-spacing: 0.08em;
 	padding: 1.8em;
@@ -109,7 +110,7 @@ nav h1 {
 	padding: 1.0em 1.2em;
 }
 nav h1 a {
-	color: #fff;
+	color: #FFF;
 	font-size: 1.0em;
 	font-weight: 200;
 	letter-spacing: 0.5em;
@@ -118,7 +119,7 @@ nav h1 a {
 #breadcrumb {
     padding: 0.8em;
     list-style: none;
-    background-color: #eee;
+    background-color: #BDBDBD;
     font-size: 1.2em;
     margin: 0;
     max-width: 100%;
@@ -132,7 +133,7 @@ nav h1 a {
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
     padding: 0.5em;
-    color: black;
+    color: #000;
     content: "/\00a0";
 }
 
@@ -151,7 +152,7 @@ nav h1 a {
 #map {
 	height: 400px;
 	width: 100%;
-	background-color: #333;
+	background-color: #D1C4E9;
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
@@ -161,7 +162,7 @@ nav h1 a {
 	padding: 0.2em 0;
 }
 .filter-options h2 {
-	color: white;
+	color: #FFF;
 	text-align: left;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -170,8 +171,8 @@ nav h1 a {
 	padding: 0.4em 0 0.2em 0.6em;
 }
 .filter-options select {
-	background-color: white;
-	border: 1px solid #fff;
+	background-color: #FFF;
+	border: 1px solid #FFF;
 	font-family: Arial,sans-serif;
 	font-size: 0.9em;
 	height: 35px;
@@ -182,7 +183,7 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  	background-color: #f3f3f3;
+  	background-color: #673AB7;
   	list-style: outside none none;
   	margin: 0;
   	padding: 1.8em 1.0em 4em;
@@ -193,7 +194,7 @@ nav h1 a {
 	justify-content: center;
 }
 #restaurants-list li {
-  	background-color: #fff;
+  	background-color: #FFF;
   	border: 2px solid #ccc;
   	font-family: Arial,sans-serif;
   	margin: 15px;
