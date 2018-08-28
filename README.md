@@ -1,48 +1,35 @@
 # Udacity Restaurant Review App (FEND)
 
-The fifth project for the Udacity Front End Developer NanoDegree. Comprises the first part of the Mobile Web Services NanoDegree project of the same name.
+The fifth project for the Udacity Front End Developer NanoDegree. Comprises the first part of the Mobile Web Specialist NanoDegree project of the same name.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for reviewing and testing out the application. For the FEND NanoDegree, only the first part of a three part project were required. Usage instructions are not much more than getting a Python server running, and point your browser to the required port.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Python 2 or 3 are required to run this web application. For Linux/Unix based systems, as well as MacOS, Python is usually included. Go to terminal and check your Python version by typing ```Python -V```.
 
-```
-Give examples
-```
+For Windows based system, you can get the installer [here](https://www.python.org/downloads/windows/), and follow the instructions. Be sure with the Windows installer to add Python to your system Path, it will be an option when installing.
 
-### Installing
+As a note, Udacity provided with a working project that was updated to ES6, the more modern version of JavaScript. For the most part, this means the application is best run in Chrome, FireFox or Edge browsers. Older versions if Internet Explorer (IE) may not display or function correctly.
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
+### Options to view, download or clone the project:
 
 Explain what these tests test and why
 
 ```
 Give an example
 ```
+
+### Starting the Server
+
+These are simply the instruction Udacity provided below to get the application running on a simple Python based server, and then get it opened in a browser. Assuming Python is on your system Path, navigate to main folder of the project you downloaded or cloned above and do the following:
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
 
 ### And coding style tests
 
@@ -72,9 +59,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Chad Sisk** - *Initial work* - [chadwyck242](https://github.com/chadwyck242).
+* Project code provided by Udacity as part of a NanoDegree requirement.
 
 ## License
 
