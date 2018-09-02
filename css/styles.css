@@ -46,6 +46,20 @@ a {
 	text-decoration: none;
 }
 
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
 a:hover,
 a:focus {
 	color: #757575;
@@ -119,6 +133,7 @@ nav h1 a {
 }
 #breadcrumb {
     padding: 0.8em;
+	text-align: left;
     list-style: none;
     background-color: #673AB7;
     font-size: 1.2em;
@@ -247,6 +262,7 @@ nav h1 a {
   	font-size: 100%;
 	font-family: inherit;
 	line-height: 1.15;
+	overflow: visible;
   	margin: 0;
 	border: 0;
   	padding: 0 0.6em;
