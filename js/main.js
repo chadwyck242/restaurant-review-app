@@ -122,7 +122,7 @@ updateRestaurants = () => {
       resetRestaurants(restaurants);
       fillRestaurantsHTML();
     }
-  })
+});
 };
 
 /**
@@ -162,6 +162,7 @@ createRestaurantHTML = (restaurant) => {
   const image = document.createElement('img');
   image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = "Image providing a view of " + restaurant.name;
   li.append(image);
 
   const name = document.createElement('h1');
@@ -176,12 +177,15 @@ createRestaurantHTML = (restaurant) => {
   address.innerHTML = restaurant.address;
   li.append(address);
 
-  const more = document.createElement('a');
+  const more = document.createElement('button');
   more.innerHTML = 'View Details';
-  more.href = DBHelper.urlForRestaurant(restaurant);
-  li.append(more)
+  more.onclick = function() {
+      const url = DBHelper.urlForRestaurant(restaurant);
+      window.location = url;
+  };
+  li.append(more);
 
-  return li
+  return li;
 };
 
 /**
