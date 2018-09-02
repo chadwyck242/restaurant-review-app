@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Python 2 or 3 are required to run this web application. For Linux/Unix based systems, as well as MacOS, Python is usually included. Go to terminal and check your Python version by typing ```Python -V```.
 
-For Windows based system, you can get the installer [here](https://www.python.org/downloads/windows/), and follow the instructions. Be sure with the Windows installer to add Python to your system Path, this will be an option available while installing.
+For Windows based system, you can get the installer [here](https://www.python.org/downloads/windows/), and follow the instructions. Be sure with the Windows installer to add Python to your system path, this will be an option available while installing.
 
 As a note, Udacity provided with a working project that was updated to ES6, the more modern version of JavaScript. For the most part, this means the application is best run in Chrome, FireFox or Edge browsers. Older versions if Internet Explorer (IE) may not display or function correctly.
 
@@ -24,11 +24,11 @@ Give an example
 
 ### Starting the Server
 
-These are simply the instruction Udacity provided below to get the application running on a simple Python based server, and then get it opened in a browser. Assuming Python is on your system Path, navigate to main folder of the project you downloaded or cloned above and do the following:
+These are simply the instructions Udacity as provided below to get the application running on a simple Python based server, and then get it opened in a browser. Assuming Python is on your system path, navigate to main folder of the project you downloaded or cloned above and do the following:
 
 ## Using the Application
 
-Explain how to run the automated tests for this system
+The Restaurant Review App is simple to use: You are provided with a map and filtering options. Select the neighborhood in New York City and the type of cuisine you are interested in from the drop down selectors. The options will be filtered based on your preferences, and the map will update as well with your selections. Once your options are provided below, as restaurant cards with a photo, you can select one to view more information. A full photo, a map, and all the reviews will be provided for the selected restaurant. There is a breadcrumb navigation near the top of this view to return to the selection screen. Easy as that!
 
 
 ### And coding style tests
