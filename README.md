@@ -45,9 +45,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [MapBox](https://www.mapbox.com/) - The Map API Used
+* [Leaflet.js](https://leafletjs.com/) - Library used with Mapbox
+* [Atom](https://atom.io/) - Editor happily used
 
 ## Authors
 
@@ -60,9 +60,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Mozilla Developer Network (MDN) Documentation and Tutorials
+* Mozilla Developer Network [MDN](https://developer.mozilla.org/en-US/) Documentation and Tutorials
 * Doug Brown MWS Stage 1 Tutorial [Doug Brown on YouTube](https://www.youtube.com/watch?v=92dtrNU1GQc)
 * Udacity FEND Student Slack Group
+* [CSS-Tricks](https://css-tricks.com/) Tutorials and Guides
+* [Smashing Magazine](https://www.smashingmagazine.com/) Articles and Guides
 
 ## **Below are the original instructions provided by Udacity, for a more general idea as to what the project requirements were.**
 
