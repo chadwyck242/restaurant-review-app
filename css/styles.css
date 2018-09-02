@@ -10,11 +10,11 @@ html {
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	position: relative;
 	font-size: 16px;
 	max-width: 1024px;
-	background-color: #D1C4E9;
+	background-color: #FFF;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -0.6em;
@@ -113,7 +113,7 @@ nav h1 {
 nav h1 a {
 	color: #FFF;
 	font-size: 1.0em;
-	font-weight: 200;
+	font-weight: 700;
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
 }
@@ -208,7 +208,7 @@ nav h1 a {
 #restaurants-list li {
   	background-color: #FFF;
   	border: 2px solid #ccc;
-  	font-family: Arial,sans-serif;
+  	font-family: 'Raleway', sans-serif;
   	margin: 1.0em;
   	min-height: 380px;
   	padding: 0 0 1.8em;
@@ -226,7 +226,7 @@ nav h1 a {
 }
 #restaurants-list li h1 {
   	color: #212121;
-  	font-family: Arial,sans-serif;
+  	font-family: 'Raleway', sans-serif;
   	font-size: 1.6em;
   	font-weight: 200;
   	letter-spacing: 0;
@@ -255,47 +255,43 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 
-.restaurant-wrapper {
-	display: grid;
-	grid-gap: 2em;
-	grid-template-columns: auto;
-	grid-template-rows: auto;
+.restaurant-wrapper,
+.restaurant-header,
+.reviews-main {
+	background-color: #D1C4E9;
+	width: 100%;
+	max-width: 1024px;
+	margin-left: auto:
+	margin-right: auto;
 }
 
-.restaurant-header {
-  	position: fixed;
-  	top: 0;
-	width: 1024px;
-	max-width: 1024px;
-  	z-index: 1000;
+.restaurant-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.restaurant-wrapper #map-container {
+
+.reviews-main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.reviews-main #map-container {
   	background: #BDBDBD none repeat scroll 0 0;
-  	height: 50%;
-	width: 50%;
-  	/* position: fixed; */
-  	right: 0;
-  	top: 210px;
+	width: 100%;
+  	height: 300px;
 }
-.restaurant-wrapper #map {
+.reviews-main #map {
   	background-color: #607D8B;
   	height: 100%;
   	width: 100%;
 }
-.restaurant-footer {
-  	width: 100%;
-	background-color: #512DA8;
-	color: #D1C4E9;
-	font-size: 0.8em;
-	letter-spacing: 0.08em;
-	padding: 1.8em;
-	text-align: center;
-	text-transform: uppercase;
-}
 #restaurant-name {
   	color: #212121;
-  	font-family: Arial,sans-serif;
-  	font-size: 1.6em;
+  	font-family: 'Raleway', sans-serif;
+  	font-size: 1.4em;
   	font-weight: 200;
   	letter-spacing: 0;
   	margin: 1.0em 0 1.0em;
@@ -303,7 +299,7 @@ nav h1 a {
   	line-height: 1.2;
 }
 #restaurant-img {
-	width: 90%;
+	width: 100%;
 }
 #restaurant-address {
   	font-size: 0.8em;
@@ -312,27 +308,28 @@ nav h1 a {
 #restaurant-cuisine {
   	background-color: #673AB7;
   	color: #FFF;
-  	font-size: 0.8em;
+  	font-size: 1.0em;
   	font-weight: 300;
   	letter-spacing: 10px;
   	margin: 0 0 20px;
   	padding: 2px 0;
   	text-align: center;
   	text-transform: uppercase;
-	width: 90%;
+	width: 100%;
 }
 #restaurant-container, #reviews-container {
   	border-bottom: 1px solid #d9d9d9;
   	border-top: 1px solid #fff;
-  	padding: 140px 40px 30px;
-  	width: 50%;
+  	padding: 3em 2em 2em;
+  	width: 100%;
+
 }
 #reviews-container {
   	padding: 30px 40px 80px;
 }
 #reviews-container h2 {
   	color: #212121;
-  	font-size: 1.8em;
+  	font-size: 1.4em;
   	font-weight: 300;
   	letter-spacing: -1px;
   	padding-bottom: 0.08em;
@@ -349,7 +346,6 @@ nav h1 a {
   	margin: 0 0 30px;
   	overflow: hidden;
   	padding: 0 20px 20px;
-  	/* position: relative; */
   	width: 85%;
 }
 #reviews-list li p {
@@ -358,12 +354,22 @@ nav h1 a {
 #restaurant-hours td {
   	color: #212121;
 }
+.restaurant-footer {
+  	width: 100%;
+	background-color: #512DA8;
+	color: #D1C4E9;
+	font-size: 0.8em;
+	letter-spacing: 0.08em;
+	padding: 1.8em;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 /* ====================== Media Queries ======================== */
 @media (min-width: 20em) {
 	nav h1 a {
 		font-size: 0.8em;
-		font-weight: 200;
+		font-weight: 700;
 		letter-spacing: 0.3em;
 	}
 
@@ -374,7 +380,7 @@ nav h1 a {
 
 @media (min-width: 28em) {
 	nav h1 a {
-		font-weight: 200;
+		font-weight: 700;
 		letter-spacing: 0.5em;
 	}
 
@@ -385,7 +391,7 @@ nav h1 a {
 @media (min-width: 48em) {
 	nav h1 a {
 		font-size: 1.2em;
-		font-weight: 200;
+		font-weight: 700;
 		letter-spacing: 0.6em;
 	}
 
