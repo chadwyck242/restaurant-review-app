@@ -270,7 +270,9 @@ nav h1 a {
   	text-decoration: none;
   	text-transform: uppercase;
 }
-
+.selector-label {
+	display: none;
+}
 /* ====================== Restaurant Details ====================== */
 
 .restaurant-wrapper,

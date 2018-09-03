@@ -23,19 +23,21 @@
           </nav>
         </header>
         <main id="maincontent" role="main">
-          <section id="map-container" role="region">
+          <section id="map-container" role="application">
             <div id="map"></div>
           </section>
           <section role="region">
             <div class="filter-options">
               <h2>Filter Results</h2>
               <div class="selection-wrapper">
-                  <select id="neighborhoods-select" role="menu" name="neighborhoods" onchange="updateRestaurants()">
+                  <select id="neighborhoods-select" role="option" name="neighborhoods" onchange="updateRestaurants()">
                     <option value="all">All Neighborhoods</option>
                   </select>
-                  <select id="cuisines-select" role="menu" name="cuisines" onchange="updateRestaurants()">
+                  <label for="neighborhoods-select" class="selector-label" >Neighborhoods:</label>
+                  <select id="cuisines-select" role="option" name="cuisines" onchange="updateRestaurants()">
                     <option value="all">All Cuisines</option>
                   </select>
+                  <label for="cuisines-select" class="selector-label" >Cuisines:</label>
               </div>
             </div>
             <ul id="restaurants-list"></ul>
