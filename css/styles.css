@@ -114,6 +114,10 @@ section {
 	text-transform: uppercase;
 }
 
+.labels {
+	display: none;
+}
+
 /* ====================== Navigation ====================== */
 nav {
 	width: 100%;
@@ -269,9 +273,6 @@ nav h1 a {
   	text-align: center;
   	text-decoration: none;
   	text-transform: uppercase;
-}
-.selector-label {
-	display: none;
 }
 /* ====================== Restaurant Details ====================== */
 
